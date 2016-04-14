@@ -39,4 +39,4 @@ Die meisten Ordnungswidrigkeiten wurden an einem **Dienstag** (9911 Fälle) bega
 
 Die Balkengrafik zeigt die Verteilung auf die Stunden des Tages. Dabei wird auch der zu zahlende Betrag farblich repräsentiert. (Am häufigsten: 10,- EUR) 
 
-![Balkengrafik](http://test.de/i.png)
+![Balkengrafik](https://raw.githubusercontent.com/CodeforNiederrhein/OWI/master/Rplot01.png)
