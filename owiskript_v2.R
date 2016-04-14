@@ -27,13 +27,16 @@ owi = na.exclude(owi) #Bons mit "-  ???" werden als Fehlbuchungen interpretiert 
 
 print(summary(owi))
 
-
-plot(tapply(owi$eur,owi$stunde,sum )/365,type="h")
 print(tapply(owi$eur,owi$stunde,sum ))
 
 library(ggplot2)
 
-#with(owi, table(eur,stunde))
-g=ggplot(owi, aes(x = stunde, fill = as.character(eur))) + geom_bar()
+g=ggplot(owi, aes(x = stunde, fill = as.character(eur) )) + 
+  geom_bar() + 
+  xlab("Uhrzeit") + 
+  ylab("Festgestellte Ordnungswidrigkeitem") +
+  labs(fill="Buﬂgeld (EUR)") +
+  ggtitle("Buﬂgelder im ruhenden Verkehr der Stadt Moers (2015)")
+
 print(g)
 print("Skript beendet.")
