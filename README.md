@@ -25,13 +25,13 @@ Die folgenden Ordnungswidrigkeiten wurden am häufigsten erfasst.
 * Sie parkten im Bereich eines Parkscheinautomaten ohne gültigen Parkschein. (9953 Fälle) [Heatmap](http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113140 "Heatmap (auf OpenStreetMap)")
 * Sie überschritten an einer Parkuhr die zulässige / im Bereich eines Parkscheinautomaten die auf dem Parkschein angegebene Parkzeit. (4203 Fälle) [Heatmap](http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113120 "Heatmap (auf OpenStreetMap)")
 * Sie parkten im Bereich eines eingeschränkten Haltverbots für eine Zone (Zeichen 290.1, 290.2), ohne die durch Zusatzzeichen vorgeschriebene Parkscheibe (Bild 318) verwendet / von außen gut lesbar im oder am
-Fahrzeug angebracht zu haben. (4023 Fälle) 
+Fahrzeug angebracht zu haben. (4023 Fälle) [Heatmap](http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113240 "Heatmap (auf OpenStreetMap)")
 * Sie parkten bei Zeichen 314/315, ohne die durch Zusatzzeichen vorgeschriebene Parkscheibe (Bild
-318) von außen gut lesbar im oder am Fahrzeug angebracht zu haben. Zeitüberschreitung bis 30 Minuten. (3811 Fälle)
-* Sie parkten im absoluten Haltverbot (Zeichen 283). (2453 Fälle) 
-* Sie hielten/parkten verbotswidrig auf einem Gehweg. (1935 Fälle)
+318) von außen gut lesbar im oder am Fahrzeug angebracht zu haben. Zeitüberschreitung bis 30 Minuten. (3811 Fälle) [Heatmap](http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113300 "Heatmap (auf OpenStreetMap)")
+* Sie parkten im absoluten Haltverbot (Zeichen 283). (2453 Fälle) [Heatmap](http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=141312 "Heatmap (auf OpenStreetMap)")
+* Sie hielten/parkten verbotswidrig auf einem Gehweg. (1935 Fälle) [Heatmap](http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=112402 "Heatmap (auf OpenStreetMap)")
 
-Zu den einzelnen Tatbeständen sind Heatmaps verfügbar, die vom OK-Lab Zürich erstellt wurden. (*Derzeit - 14.04.2016 - funktionieren die Heatmaps nicht.*)
+Zu den einzelnen Tatbeständen sind Heatmaps verfügbar, die vom OK-Lab Zürich erstellt wurden. 
 
 Die meisten Ordnungswidrigkeiten wurden an einem **Dienstag** (9911 Fälle) begangen (bzw. registriert), **Freitag** (7603 Fälle), **Samstag** (2641 Fälle) und **Sonntag** (367 Fälle) sind vergleichsweise selten betroffen.
 
