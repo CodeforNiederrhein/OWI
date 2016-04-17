@@ -47,3 +47,5 @@ Sehr selten erfasst wurden folgende Tatbestände.
 Die Balkengrafik zeigt die Verteilung auf die Stunden des Tages. Dabei wird auch der zu zahlende Betrag farblich repräsentiert. (Am häufigsten: 10,- EUR) 
 
 ![Balkengrafik](https://raw.githubusercontent.com/CodeforNiederrhein/OWI/master/Rplot01.png)
+
+[Balkengrafik in Druckqualität](https://github.com/CodeforNiederrhein/OWI/raw/master/Balkendiagramm_in_Druckqualit%C3%A4t.pdf). Lizenz: CC0, gemeinfrei.
