@@ -27,16 +27,21 @@ owi = na.exclude(owi) #Bons mit "-  ???" werden als Fehlbuchungen interpretiert 
 
 print(summary(owi))
 
-print(tapply(owi$eur,owi$stunde,sum ))
+# print(tapply(owi$eur,owi$stunde,sum ))
+
+taten <- table(owi$tat)
+taten <- sort(taten,decreasing=TRUE)
+print(taten) # Zur Anzeige häufiger und seltener Tatbestände
 
 library(ggplot2)
 
-g=ggplot(owi, aes(x = stunde, fill = as.character(eur) )) + 
+g=ggplot(owi, aes(x = stunde, fill = format(eur) )) + 
   geom_bar() + 
   xlab("Uhrzeit") + 
-  ylab("Festgestellte Ordnungswidrigkeitem") +
+  ylab("Festgestellte Ordnungswidrigkeiten") +
   labs(fill="Bußgeld (EUR)") +
   ggtitle("Bußgelder im ruhenden Verkehr der Stadt Moers (2015)")
 
 print(g)
+
 print("Skript beendet.")

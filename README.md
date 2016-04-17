@@ -35,6 +35,13 @@ Zu den einzelnen Tatbeständen sind Heatmaps verfügbar, die vom OK-Lab Zürich 
 
 Die meisten Ordnungswidrigkeiten wurden an einem **Dienstag** (9911 Fälle) begangen (bzw. registriert), **Freitag** (7603 Fälle), **Samstag** (2641 Fälle) und **Sonntag** (367 Fälle) sind vergleichsweise selten betroffen.
 
+### Ausnahmetatbestände
+Sehr selten erfasst wurden folgende Tatbestände.
+
+* Sie schalteten missbräuchlich das Warnblinklicht ein. (2 Fälle)
+* Sie parkten verbotswidrig länger als 1 Stunde im Bereich eines Taxenstandes (Zeichen 229). (1 Fall)
+* Sie hielten/parkten näher als 10 Meter vor einem Andreaskreuz und verdeckten dieses. (1 Fall)
+
 ### Zeitliche Verteilung der Tatbestände 
 
 Die Balkengrafik zeigt die Verteilung auf die Stunden des Tages. Dabei wird auch der zu zahlende Betrag farblich repräsentiert. (Am häufigsten: 10,- EUR) 
