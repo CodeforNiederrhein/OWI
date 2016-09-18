@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>OWI by CodeforNiederrhein</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>OWI</h1>
+        <h2>Ordnungswidrigkeiten im ruhenden Verkehr der Stadt Moers</h2>
+        <a href="https://github.com/CodeforNiederrhein/OWI" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="owi" class="anchor" href="#owi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OWI</h1>
+
+<p><strong>Projekt OWI</strong>: Bußgelder für Ordnungswidrigkeiten im ruhenden Verkehr der Stadt Moers</p>
+
+<p>Dieses Projekt wurde auf dem <a href="http://hackday.moers.de/" title="Open Data-Hackday">ODDMO16</a> am 09./10.04.2016 initiiert. Es diente als einführendes Beispiel zur Auswertung und Visualisierung von Daten mithilfe von R. Der R-Code ist hier teilweise auf Zuruf und durch Ausprobieren von Befehlen seitens R-Einsteigern entstanden; er befindet sich daher in einem frühen Entwurfszustand und bedarf noch starker Überarbeitung in kommenden Projektphasen.</p>
+
+<h2>
+<a id="ergebnisse" class="anchor" href="#ergebnisse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ergebnisse</h2>
+
+<p>Die knapp 50.000 Datensätze enthalten die Bußgelder (Ordnungswidrigkeiten) für den ruhenden Verkehr im Jahr 2015 in Moers.</p>
+
+<h3>
+<a id="die-häufigsten-tatorte" class="anchor" href="#die-h%C3%A4ufigsten-tatorte" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Die häufigsten Tatorte</h3>
+
+<p>Die folgenden Tatorte waren am stärksten betroffen.</p>
+
+<ul>
+<li>
+<strong>Neumarkt / A, Parkplatz</strong>: 3347 Fälle</li>
+<li>
+<strong>Mühlenstraße / DE, Parkplatz</strong>: 1857 Fälle</li>
+<li>
+<strong>Kautzstraße / B, Parkplatz</strong>: 1121 Fälle</li>
+<li>
+<strong>Hanckwitzstraße / B, Parkplatz</strong>: 1034 Fälle</li>
+<li>
+<strong>Meerstraße / B, Schotterparkplatz</strong>:  882 Fälle</li>
+<li>
+<strong>Meerstraße / B, Parkplatz</strong>:  876 Fälle</li>
+</ul>
+
+<h3>
+<a id="die-häufigsten-tatbestände" class="anchor" href="#die-h%C3%A4ufigsten-tatbest%C3%A4nde" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Die häufigsten Tatbestände</h3>
+
+<p>Die folgenden Ordnungswidrigkeiten wurden am häufigsten erfasst.</p>
+
+<ul>
+<li>Sie parkten im Bereich eines Parkscheinautomaten ohne gültigen Parkschein. (9953 Fälle) <a href="http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113140" title="Heatmap (auf OpenStreetMap)">Heatmap</a>
+</li>
+<li>Sie überschritten an einer Parkuhr die zulässige / im Bereich eines Parkscheinautomaten die auf dem Parkschein angegebene Parkzeit. (4203 Fälle) <a href="http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113120" title="Heatmap (auf OpenStreetMap)">Heatmap</a>
+</li>
+<li>Sie parkten im Bereich eines eingeschränkten Haltverbots für eine Zone (Zeichen 290.1, 290.2), ohne die durch Zusatzzeichen vorgeschriebene Parkscheibe (Bild 318) verwendet / von außen gut lesbar im oder am
+Fahrzeug angebracht zu haben. (4023 Fälle) <a href="http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113240" title="Heatmap (auf OpenStreetMap)">Heatmap</a>
+</li>
+<li>Sie parkten bei Zeichen 314/315, ohne die durch Zusatzzeichen vorgeschriebene Parkscheibe (Bild
+318) von außen gut lesbar im oder am Fahrzeug angebracht zu haben. Zeitüberschreitung bis 30 Minuten. (3811 Fälle) <a href="http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=113300" title="Heatmap (auf OpenStreetMap)">Heatmap</a>
+</li>
+<li>Sie parkten im absoluten Haltverbot (Zeichen 283). (2453 Fälle) <a href="http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=141312" title="Heatmap (auf OpenStreetMap)">Heatmap</a>
+</li>
+<li>Sie hielten/parkten verbotswidrig auf einem Gehweg. (1935 Fälle) <a href="http://geojson.ft0.ch/heat/#http://w-moers.ft0.ch/q/bussgeld/%20/tatbestand=112402" title="Heatmap (auf OpenStreetMap)">Heatmap</a>
+</li>
+</ul>
+
+<p>Zu den einzelnen Tatbeständen sind Heatmaps verfügbar, die vom OK-Lab Zürich erstellt wurden. </p>
+
+<p>Die meisten Ordnungswidrigkeiten wurden an einem <strong>Dienstag</strong> (9911 Fälle) begangen (bzw. registriert), <strong>Freitag</strong> (7603 Fälle), <strong>Samstag</strong> (2641 Fälle) und <strong>Sonntag</strong> (367 Fälle) sind vergleichsweise selten betroffen.</p>
+
+<h3>
+<a id="ausnahmetatbestände" class="anchor" href="#ausnahmetatbest%C3%A4nde" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ausnahmetatbestände</h3>
+
+<p>Sehr selten erfasst wurden folgende Tatbestände.</p>
+
+<ul>
+<li>Sie schalteten missbräuchlich das Warnblinklicht ein. (2 Fälle)</li>
+<li>Sie parkten verbotswidrig länger als 1 Stunde im Bereich eines Taxenstandes (Zeichen 229). (1 Fall)</li>
+<li>Sie hielten/parkten näher als 10 Meter vor einem Andreaskreuz und verdeckten dieses. (1 Fall)</li>
+</ul>
+
+<h3>
+<a id="zeitliche-verteilung-der-tatbestände" class="anchor" href="#zeitliche-verteilung-der-tatbest%C3%A4nde" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Zeitliche Verteilung der Tatbestände</h3>
+
+<p>Die Balkengrafik zeigt die Verteilung auf die Stunden des Tages. Dabei wird auch der zu zahlende Betrag farblich repräsentiert. (Am häufigsten: 10,- EUR) </p>
+
+<p><img src="https://raw.githubusercontent.com/CodeforNiederrhein/OWI/master/Rplot01.png" alt="Balkengrafik"></p>
+
+<p><a href="https://github.com/CodeforNiederrhein/OWI/raw/master/Balkendiagramm_in_Druckqualit%C3%A4t.pdf">Balkengrafik in Druckqualität</a>. Lizenz: CC0, gemeinfrei.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/CodeforNiederrhein/OWI/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/CodeforNiederrhein/OWI/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/CodeforNiederrhein/OWI"></a> is maintained by <a href="https://github.com/CodeforNiederrhein">CodeforNiederrhein</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
